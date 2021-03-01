@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내셔널지오그래픽</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+    <script src="./js/jquery.nicescroll.min.js"></script>
+    <script>
+            $(document).ready(function() {
+    $("html").niceScroll({
+      scrollspeed: 150,
+      cursorcolor:"#222",
+    });  // The document page (body)
+  });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>
+                <a href="#">
+                    <svg class="vector mainIcon" viewBox="113.727 27.938 68.264 97.938">
+                        <g>
+                            <path fill="currentColor" d="M123.565,37.798h48.552v78.215h-48.552V37.798z M113.727,125.876h68.264V27.938h-68.264V125.876z"></path>
+                        </g>
+                        </svg>
+                    <span class="blind">logo</span>
+                </a>
+            </h1>
+        </div>
+        <span class="hamburger">
+            <span></span>
+            <span></span>
+        </span>
+        <div class="btn-space">
+            <button>
+                NATIONAL GEOGRAPHIC
+                <i class="fi-rr-arrow-small-right"></i>
+            </button>
+        </div>
+    </div>
+    <div class="menu">
+       <ul>
+           <li><span>01</span>Brand</li>
+           <li><span>02</span>Channel</li>
+           <li><span>03</span>Video</li>
+           <li><span>04</span>News</li>
+           <li><span>05</span>Magazines</li>
+           <li><span>06</span>Store</li>
+       </ul>
+    </div>
+    <div class="main">
+        <div class="bg-img">
+            <img src="./images/nationalgeographic.jpg" alt="">
+            <div class="overlay"></div>
+        </div>
+        <!-- <div class="bg-section">
+            <img src="./images/white-sand-beach.jpg" alt="main-img">
+        </div> -->
+        <div class="main-vis">
+            <div class="scroll-down" style="opacity: 1;">
+                <div style="transform: scaleY(1);"></div>
+                <button class="white scroll-down-btn">
+                    <span>Scroll down</span>
+                </button>
+                </div>
+            <div class="text-area">
+                <h2>트래블러 매거진</h2>
+                <p>내셔널지오그래픽 트래블러 포토 콘테스트에 참가한 수천 점에 이르는 놀라운 사진들을 검토한 끝에 , 심사위원들은 그중에서 가장 돋보인 작품인 를 대상작으로 선정했다. 도시, 자연, 사람 등 3개 분야에 걸쳐 놀라운 장면들을 포착해낸 사진을 뽑는 포토 콘테스트의 수상작을 소개한다.</p>
+                <a href="#">
+                    Discover
+                    <div class="circle-arrow">
+                            <i class="fi-rr-arrow-right"></i>
+                        <svg class="circle-container" viewBox="0 0 80 80" width="80" height="80"><circle class="circle" cx="40" cy="40" r="28" stroke="#b51f1f" stroke-width="2px" fill="transparent"></circle></svg>
+                        </div>
+                </a>
+            </div>
+        </div>
+       
+        <div class="slide-section clear">
+        <div class="container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://i.natgeofe.com/n/7317abf7-c621-4b8d-bf2e-61d5c38ea45f/stock_mz3758_200408_ozturk_moonwalk_002264.jpg?wp=1&w=1260&h=840" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://i.natgeofe.com/n/ccf3eea4-e407-4880-bbfd-82192e5458ed/Rose_Oaxaca Bugs_01.jpg?wp=1&w=1024&h=683" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://i.natgeofe.com/n/62629584-d56a-4087-ae67-e2c8ce4e7680/motels-rv-gg9w4e.jpg?wp=1&w=1024&h=819" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        <div class="slide-text-area">
+            <h3>잊지못할 순간들 </h3>
+            <p>
+            여행이란 우리가 사는 장소를 바꾸어 주는 것이 아니라 우리 생각과 편견을 바꾸어 준다.
+            세계는 한 권의 책이고 여행하지않은 사람은 그 책의 한 페이지만 읽는 것과 같다. 
+            </p>
+            <a href="#">
+                Discover
+                <div class="circle-arrow">
+                    <i class="fi-rr-arrow-right"></i>
+                    <svg class="circle-container" viewBox="0 0 80 80" width="80" height="80"><circle class="circle" cx="40" cy="40" r="28" stroke="#b51f1f" stroke-width="2px" fill="transparent"></circle></svg>
+                </div>
+            </a>
+        </div>
+        </div>
+        </div>
+        <div class="three-sections">
+            <div class="sections-slides">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-num="01">
+                            <img src="https://i.natgeofe.com/n/32e0f073-0ddd-4cfb-824a-a95b2f25237a/IMG_6725.jpg?wp=1&w=636&h=477" alt="slide">
+                            <div class="desc">
+                                <h3>동물</h3>
+                                <p>텍스사 섬의 얼어붙은 물에서 5천만 마리 바다거북이 구조되었다.
+                                </p>
+                                <a href="">Discover
+                                    <i class="fi-rr-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-num="02">
+                            <img src="https://i.natgeofe.com/n/2ba0b75c-72c2-4e06-8891-ceeab291e229/PIA24428-High-Resolution_Still_Image_of_Perseverances_Landing.jpg?wp=1&w=636&h=477" alt="slide">
+                            <div class="desc">
+                                <h3>과학</h3>
+                                <p>사상 첫 화성에 착륙하는 우주선 
+                                </p>
+                                <a href="">Discover
+                                    <i class="fi-rr-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-num="03">
+                            <img src="https://i.natgeofe.com/n/9e580489-7923-4081-a2d2-2f79a0b32190/01_NationalGeographic_2726033.jpg?wp=1&w=636&h=424" alt="slide">
+                            <div class="desc">
+                                <h3>환경</h3>
+                                <p>쿠바의 고립으로 인한 의도치않은 환경적 이익
+                                </p>
+                                <a href="#">Discover
+                                    <i class="fi-rr-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-num="04">
+                            <img src="https://i.natgeofe.com/n/5c3c9feb-4095-478c-b1cb-eb26f3bb6a93/06-lost-goodbye-texts.jpg?wp=1&w=1260&h=1755" alt="slide">
+                            <div class="desc">
+                                <h3>역사 & 문화</h3>
+                                <p>코로나 피해자들의 가슴 아픈 작별 메세지들
+                                </p>
+                                <a href="#">Discover
+                                    <i class="fi-rr-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-area">
+            <img src="./images//the-road.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="wrap">
+                <div class="title">
+                    <span>더욱 감동적인 사진,<br>이야기 및 특별함을 즐겨보세요.</span>
+                    <button>가입하기</button>            
+                </div>
+    
+            </div>
+        </div>
+        <div class="branding">
+            <div class="section-first clear">
+                <div class="img-wrap">
+                    <img src="https://i.natgeofe.com/n/e4b78c84-c62c-4e0a-a57e-bef312631ddf/naturepl_01503430.jpg?wp=1&w=1024&h=1024" alt="">
+                </div>
+                <div class="desc-area">
+                    <p>남극대륙에서 발견된 보기드문<br> 노란색 펭귄</p>
+                    <p>이 왕 펭귄은 수만 마리의 펭귄이 모이는 사우스 조지아 섬에서 발견되었습니다.</p>
+                    <a href="#">Discover
+                        <i class="fi-rr-angle-small-right"></i>
+                    </a>
+                </div>
+              
+            </div>
+            <div class="section-two">
+                <div class="container">
+                    <span>MAGAZINES</span>
+                    <div class="desc-container clear">
+                        <div class="desc" data-num="01">
+                            <h4>바이러스가 세상을 형성시킨 방법</h4>
+                        <p>
+                            COVID-19는 그들의 파괴력을 상기시켜주지만, 인간의 발전과 생존에 매우 중요하다.
+                        </p>
+                        </div>
+                        <div class="desc" data-num="02">
+                            <h4>화성에서의 삶</h4>
+                            <p>자비로운 채식주의자. 기후 난민. 과학적인 탐험이 발전함에 따라, 붉은 행성과 그 잠재적 거주자들에 대한 창의적인 해석도 가능해졌다.</p>
+                        </div>
+                        <div class="cb m-vis"></div>
+                        <div class="desc" data-num="03">
+                            <h4>왜 화성에 빠지는가?</h4>
+                            <p>그 먼지투성이의 붉은 행성은 수세기 동안 우리를 매료시켜 왔다. 우리가 더 많은 것을 알게 되더라도, 그것의 신비는 우리를 긴장하게 한다.</p>
+                        </div>
+                        <div class="desc" data-num="04">
+                            <h4>카슈미르 악몽</h4>
+                          <p>
+                            얼마나 모호한 지도들이 불우한 산과 빙하에 대한 유혈사태를 초래했는가
+                          </p>
+                        </div>   
+                    </div>
+                    <a href="#">Discover
+                        <i class="fi-rr-angle-small-right"></i>
+                    </a>       
+                </div>
+               
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="desc">
+                <h5>더 많은 소식을 받아보세요</h5>
+                <p>당신의 메일로 네셔널 지오그래픽만의 특별한 메세지들을 배달해 드립니다!</p>
+                <span>구독하고 다양한 뉴스 받기</span>
+                <button type="button">Subscribe</button>
+            </div>
+            <div class="roller-container">
+                <div class="roller-top">
+                  <div class="roller-img-container">
+                    <span><img src="./images/n1.JPG" alt=""></span>
+                    <span><img src="./images/n2.JPG" alt=""></span>
+                    <span><img src="./images/n3.JPG" alt=""></span>
+                    <span><img src="./images/n4.JPG" alt=""></span>
+                    <span><img src="./images/n5.JPG" alt=""></span>
+                    <span><img src="./images/n6.JPG" alt=""></span>
+                    <span><img src="./images/n7.JPG" alt=""></span>
+                    <span><img src="./images/n8.JPG" alt=""></span>
+                    <span><img src="./images/n9.JPG" alt=""></span>
+                    <span><img src="./images/n10.JPG" alt=""></span>
+                    <span><img src="./images/n1.JPG" alt=""></span>
+                    <span><img src="./images/n2.JPG" alt=""></span>
+                    <span><img src="./images/n3.JPG" alt=""></span>
+                    <span><img src="./images/n4.JPG" alt=""></span>
+                    <span><img src="./images/n5.JPG" alt=""></span>
+                    <span><img src="./images/n6.JPG" alt=""></span>
+                    <span><img src="./images/n7.JPG" alt=""></span>
+                    <span><img src="./images/n8.JPG" alt=""></span>
+                    <span><img src="./images/n9.JPG" alt=""></span>
+                    <span><img src="./images/n10.JPG" alt=""></span>
+                  </div>
+                </div>
+                <div class="roller-bottom">
+                  <div class="roller-img-container">
+                    <span><img src="./images/n11.JPG" alt=""></span>
+                    <span><img src="./images/n12.JPG" alt=""></span>
+                    <span><img src="./images/n13.JPG" alt=""></span>
+                    <span><img src="./images/n14.JPG" alt=""></span>
+                    <span><img src="./images/n15.JPG" alt=""></span>
+                    <span><img src="./images/n16.JPG" alt=""></span>
+                    <span><img src="./images/n17.JPG" alt=""></span>
+                    <span><img src="./images/n18.JPG" alt=""></span>
+                    <span><img src="./images/n19.JPG" alt=""></span>
+                    <span><img src="./images/n20.JPG" alt=""></span>
+                    <span><img src="./images/n11.JPG" alt=""></span>
+                    <span><img src="./images/n12.JPG" alt=""></span>
+                    <span><img src="./images/n13.JPG" alt=""></span>
+                    <span><img src="./images/n14.JPG" alt=""></span>
+                    <span><img src="./images/n15.JPG" alt=""></span>
+                    <span><img src="./images/n16.JPG" alt=""></span>
+                    <span><img src="./images/n17.JPG" alt=""></span>
+                    <span><img src="./images/n18.JPG" alt=""></span>
+                    <span><img src="./images/n19.JPG" alt=""></span>
+                    <span><img src="./images/n20.JPG" alt=""></span>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="footer">
+            <div class="top">
+                <h5>문의사항 있으신가요?</h5>
+                <p>메일을 남겨주세요</p>
+            </div>
+            <div class="bottom clear">
+                <div class="left">
+                    <ul>
+                        <li>
+                        <a href="mailto:national@groupwork.com">national@groupwork.com</a>  
+                        </li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Term of Use</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="sns-left">
+                        <h6>Follow us</h6>
+                        <span><a href="#">Twitter</a></span>
+                        <span><a href="#">Facebook</a></span>
+                    </div>
+                    <div class="sns-right">
+                        <span><a href="#">Reddit</a></span>
+                        <span><a href="#">Telegram</a></span>
+                    </div>
+                    <div class="auth">
+                        <h6>Auth</h6>
+                        <span><a href="#">Login</a></span>
+                        <span><a href="#">Sign up</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./index.js"></script>
+
+</html>
