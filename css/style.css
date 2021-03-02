@@ -318,6 +318,8 @@ margin:0 auto;
     width:50%;
     height: 730px;
     float:left;
+    padding-bottom:73px;
+    box-sizing: content-box;
 }
 
 .main .slide-section .swiper-container .swiper-wrapper .swiper-slide img{
@@ -681,10 +683,10 @@ display:inline-block;
     padding-left:20px;
 }
 
-.branding .section-two .container .desc-container .desc:nth-of-type(1):before,
-.branding .section-two .container .desc-container .desc:nth-of-type(2):before,
-.branding .section-two .container .desc-container .desc:nth-of-type(3):before,
-.branding .section-two .container .desc-container .desc:nth-of-type(4):before{
+.branding .section-two .container .desc-container .desc::before,
+.branding .section-two .container .desc-container .desc::before,
+.branding .section-two .container .desc-container .desc::before,
+.branding .section-two .container .desc-container .desc::before{
     content:attr(data-num);
     position:absolute;
     top:0%;
@@ -693,10 +695,10 @@ display:inline-block;
 
 }
 
-.branding .section-two .container .desc-container .desc:nth-of-type(1):after,
-.branding .section-two .container .desc-container .desc:nth-of-type(2):after,
-.branding .section-two .container .desc-container .desc:nth-of-type(3):after,
-.branding .section-two .container .desc-container .desc:nth-of-type(4):after{
+.branding .section-two .container .desc-container .desc::after,
+.branding .section-two .container .desc-container .desc::after,
+.branding .section-two .container .desc-container .desc::after,
+.branding .section-two .container .desc-container .desc::after{
     content:'';
     position:absolute;
     top:4%;
@@ -1099,11 +1101,17 @@ margin-bottom:20px;
         height: 30px;
     }
     
-    .branding .section-two .container .desc-container .desc:nth-child(1):before, .branding .section-two .container .desc-container .desc:nth-child(2):before, .branding .section-two .container .desc-container .desc:nth-child(3):before, .branding .section-two .container .desc-container .desc:nth-child(4):before{
+    .branding .section-two .container .desc-container .desc::before,
+     .branding .section-two .container .desc-container .desc::before,
+     .branding .section-two .container .desc-container .desc::before,
+      .branding .section-two .container .desc-container .desc::before{
         font-size:20px;
     }
     
-    .branding .section-two .container .desc-container .desc:nth-child(1):after, .branding .section-two .container .desc-container .desc:nth-child(2):after, .branding .section-two .container .desc-container .desc:nth-child(3):after, .branding .section-two .container .desc-container .desc:nth-child(4):after{
+    .branding .section-two .container .desc-container .desc:after,
+     .branding .section-two .container .desc-container .desc::after,
+      .branding .section-two .container .desc-container .desc:after,
+       .branding .section-two .container .desc-container .desc:after{
         top:7px;
     }
     
@@ -1137,8 +1145,9 @@ margin-bottom:20px;
     
     .menu ul {
         padding: 15px;
-        height: auto;
+        height: 100vh;
         padding-top:150px;
+        overflow-y: auto;
     }
     
     .menu ul li{
